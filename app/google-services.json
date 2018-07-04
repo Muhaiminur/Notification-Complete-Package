@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "822445051137",
+    "firebase_url": "https://notificationblocker.firebaseio.com",
+    "project_id": "notificationblocker",
+    "storage_bucket": "notificationblocker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822445051137:android:b815f41cc655a631",
+        "android_client_info": {
+          "package_name": "com.muhaiminurabir.notificationblocker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822445051137-mgf1nfes19c81j13fedb6kotrsv2erk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muhaiminurabir.notificationblocker",
+            "certificate_hash": "d84d70d7c69ec316ff2691cf83e0713b1ddf72bc"
+          }
+        },
+        {
+          "client_id": "822445051137-r82obnd9efa9jngorkeo6cd03avlnni4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7w2BAUfD9P9kfupSFMTt3JffXdbgDQT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822445051137-r82obnd9efa9jngorkeo6cd03avlnni4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+{
+ "to" : "f77ydJXI-ps:APA91bFoueDSpV0ya8CngPxOFGG4nHjTGoYMv7Bl2pbu1f1DDgW2Vvp14e70uwCboD0xvSTsiDQnEh5siOMzL81yxKyAAsyC7DBHyF94Thf2dLO4M3cT0eGkdxxEMQKh7I3JqM96cJBV",
+ "notification" : {
+        "click_action" : "Notification_activity",
+        "body" : "new Symulti update !",
+        "title" : "new Symulti update !",
+        "icon" : "ic_notification" },
+ "data" : {
+     "body" : "First Notification backgraound",
+     "title": "Collapsing A Backgraound",
+     "key_1" : "Okay this is test",
+     "key_2" : "4:24 pm 5/20/18"
+ }
+}
+
+
+Head:
+Authorization:key=AAAA6tmssT4:APA91bF82FT31AbDt9Mk33_NEUuDULlclyTiyuQOJWjAZR3f9AKrvRZjrxUN_tBNWnzw7qSf4pqcpx_906x8QA5pgrgpTzeU0v1YLBVIz99BsGjIQU1Wd1fSWYi_2ZGeUI_qJgEKKCr7
+Content-Type:application/json
+
+
+Link:https://fcm.googleapis.com/fcm/send
