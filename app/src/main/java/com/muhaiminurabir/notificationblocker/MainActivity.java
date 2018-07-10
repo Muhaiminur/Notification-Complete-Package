@@ -15,6 +15,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.os.Handler;
 import android.service.notification.NotificationListenerService;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
@@ -33,7 +34,6 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Set;
-
 public class MainActivity extends AppCompatActivity {
 
     Button start,end,check,check2,check3,check4;
@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         try {
+
+            Log.d("lifecycle","onCreate invoked");
 
             remoteViews = new RemoteViews(getPackageName(),R.layout.custom_notification);
             remoteViews.setImageViewResource(R.id.notif_icon,R.mipmap.ic_launcher);
@@ -551,5 +553,36 @@ public class MainActivity extends AppCompatActivity {
             Notification notification = builder.build();
             notifManager.notify(NOTIFY_ID, notification);
         }
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d("lifecycle","onStart invoked");
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d("lifecycle","onResume invoked");
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d("lifecycle","onPause invoked");
+    }
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d("lifecycle","onStop invoked");
+    }
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d("lifecycle","onRestart invoked");
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d("lifecycle","onDestroy invoked");
     }
 }
